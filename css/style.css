@@ -1,0 +1,255 @@
+/* ここから下に記載していく */
+figure img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+  }
+  figure:hover img {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+  }
+
+  .demo5{
+    background: url(../img/01_kadai.png) no-repeat;
+    /* width: 200px; */
+    /* height: 60px; */
+}
+.demo5 a{
+    display: block;
+}
+.demo5 img{
+    border: none;
+}
+.demo5 a:hover{
+    background: none;
+}
+.demo5 a:hover img{
+    visibility: hidden;
+}
+  
+  .img-block {
+    width: 300px;
+    /* height: 300px; */
+    overflow: hidden;
+  }
+  .img-block img {
+    transition: 0.5s;
+  }
+  .img-block img:hover {
+    -moz-transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+  }
+
+.mainbg {
+  background-image: url(../img/mainbg.png);
+  width: 945px;
+  height: 370px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  margin: 0 auto;
+
+}
+
+.mainbg H1{
+    color: white;
+font-size: 60px;
+text-align: center;
+  padding-top: 100px;
+}
+
+.mainbg p{
+    color: white;
+font-size: 30px;
+text-align: center;
+  padding-top: 30px;
+}
+
+.about H1{
+font-size: 24px;
+color: orange;
+text-align: center;
+padding-top: 60px;
+
+}
+
+
+.about H2{
+    font-size: 18px;
+    text-align: center;
+    padding-top: 30px;
+    
+    }
+
+.about p {
+    font-size: 18px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.yoko{
+    display: flex;
+    justify-content: center;
+
+}
+
+   
+
+.yoko1{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+
+     width: 100%;
+}
+
+.course H1{
+    font-size: 24px;
+    color: black;
+    text-align: center;
+    padding-top: 60px;
+    
+    }
+
+    .course p {
+        font-size: 18px;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    /* .table{
+        border-collapse: collapse;
+        margin: 0 auto;
+      }
+      .table-img,
+      .table-txt{
+        vertical-align: top;
+        width: 300px;
+      }
+      .table-img{
+        background: #f0e68c;
+      }
+      .table-img > img{
+        width: 100%;
+      }
+      .table-txt{
+        background: #d2b48c;
+      }
+       */
+
+
+       .box4 h1{
+        font-size: 30px;
+        margin-top: 30px;
+    
+    }
+    .box4 p{
+        font-size: 15px;
+        margin-top: 30px;
+    }
+    
+    .yoko2{
+
+        display: flex; 
+        justify-content: center;
+        width: 940px;
+        margin: 0 auto;
+    
+    }
+
+    .img2{
+
+        background-image: url(../img/course_01.jpg);
+        width: 470px;
+        height: 370px;
+        background-size: cover;
+      background-repeat: no-repeat;
+      background-position: bottom;
+    }
+    
+    .textbox2{
+        width: 470px;
+        height: 370px;
+    text-align: center;
+    background-color: lightgray;
+    }
+
+    .img3{
+
+        background-image: url(../img/course_02.jpg);
+        width: 470px;
+        height: 370px;
+        background-size: cover;
+      background-repeat: no-repeat;
+      background-position: bottom;
+    }
+    
+    .img4{
+
+        background-image: url(../img/course_03.jpg);
+        width: 470px;
+        height: 370px;
+        background-size: cover;
+      background-repeat: no-repeat;
+      background-position: bottom;
+    }
+    
+     
+.box3 {
+    width: 945px;
+    /* background: #eeeeee; */
+    margin: 0 auto;
+  }
+  
+  .box3 h1 {
+    text-align: center;
+    font-size: 30px;
+  
+  }
+  
+  .yoko_box {
+    width: 230px;
+    /* border: 4px solid blue; */
+  }
+  
+  .img {
+    background-image: url(../img/news_img.jpg);
+    width: 230px;
+    height: 150px;
+  }
+  
+  .yoko {
+    display: flex;
+    justify-content: space-between;
+    width: 750px;
+    margin: 0 auto;
+  }
+  
+  .box3 p{
+      text-align: center;
+      font-size: 18px;
+  
+  }
+  
+  .box3 h2 {
+      text-align: center;
+      font-size: 20px;
+    
+    }  
+
+    .map {
+        text-align: center
+        width: 945px;
+        background-size: cover;
+      background-repeat: no-repeat;
+      background-position: bottom;
+    }
+
+
+    .form{
+        margin: 0 auto;
+    }
+
